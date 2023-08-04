@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "",
+    "project": "luma test",
+    "environment": "qa",
+    "comment": "",
+    "reportLink": "",
+    "language": "en",
+    "allureFolder": "target/allure-results",
+    "enableChart": true
+  },
+  "slack": {
+    "token": "xoxb-4940465247332-5691760391474-gp59pFFMTH6N7KDp2tBdYJNo",
+    "chat": "allure test from asan",
+    "replyTo": ""
+  }
+}

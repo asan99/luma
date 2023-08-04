@@ -20,7 +20,7 @@ public class ConfigReaderPassword {
     }
 
         public static String getPasswordProperty (String key){
-            return properties.getProperty(key);
+            return properties.getProperty(key).trim();
         }
 
 }

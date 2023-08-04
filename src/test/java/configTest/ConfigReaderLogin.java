@@ -20,6 +20,6 @@ public class ConfigReaderLogin {
     }
 
     public static String getLoginProperty(String key) {
-        return properties.getProperty(key);
+        return properties.getProperty(key).trim();
     }
 }

@@ -40,9 +40,7 @@ public class BaseTestForCreateAccount {
 
     @AfterMethod
     public void tearDown() {
-
         Driver.closeDriver();
-
     }
 
 

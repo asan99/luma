@@ -1,0 +1,7 @@
+selenium/AllureReportListener.class
+selenium/SignInTest.class
+configTest/ConfigReaderLogin.class
+configTest/ConfigReaderPassword.class
+selenium/BaseTestForCreateAccount.class
+selenium/BaseTest.class
+selenium/CreateAccountTest.class

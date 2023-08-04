@@ -1,0 +1,1 @@
+{"uuid":"ced7a139-4063-4fd3-8c86-49d396034360","name":"selenium.BaseTest.openLuma","children":["bc1d38ff-2f7b-46a1-86b6-309154a78db5"],"description":"","befores":[{"name":"openLuma","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1691134172899,"stop":1691134181606}],"afters":[],"start":1691134172899,"stop":1691134181606}

@@ -3,6 +3,7 @@ package selenium.ui.pages;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import selenium.ui.helper.WaitManager;
 import selenium.ui.models.CustomerAccountForm;
 
 
@@ -52,6 +53,7 @@ public class HomePage extends BasePage {
         String WELCOME_USER_MESSAGE = "Welcome, " + name + " "
                 + lastName + "!";
         elementActions.waitElementToBeDisplayed(welcomeText);
+        WaitManager.pause(2);
         return elementActions.getText(welcomeText).equals(WELCOME_USER_MESSAGE);
     }
 

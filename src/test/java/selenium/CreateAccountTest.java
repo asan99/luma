@@ -1,7 +1,7 @@
 package selenium;
 
 
-import configTest.ConfigReaderTest;
+import configTest.ConfigReaderPassword;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import selenium.ui.helper.WaitManager;
@@ -38,13 +38,13 @@ public class CreateAccountTest extends BaseTestForCreateAccount {
         homePage.clickOnCreateAccount();
         Assert.assertTrue(createNewAccountPage.checkPasswordStrengthEmpty());
         Assert.assertTrue(createNewAccountPage
-                .checkPasswordStrengthWeak(ConfigReaderTest.getTestProperty("weak_password")));
+                .checkPasswordStrengthWeak(ConfigReaderPassword.getPasswordProperty("weak_password")));
         Assert.assertTrue(createNewAccountPage
-                .checkPasswordStrengthMedium(ConfigReaderTest.getTestProperty("medium_password")));
+                .checkPasswordStrengthMedium(ConfigReaderPassword.getPasswordProperty("medium_password")));
         Assert.assertTrue(createNewAccountPage
-                .checkPasswordStrengthStrong(ConfigReaderTest.getTestProperty("strong_password")));
+                .checkPasswordStrengthStrong(ConfigReaderPassword.getPasswordProperty("strong_password")));
         Assert.assertTrue(createNewAccountPage
-                .checkPasswordStrengthVeryStrong(ConfigReaderTest.getTestProperty("very_strong_password")));
+                .checkPasswordStrengthVeryStrong(ConfigReaderPassword.getPasswordProperty("very_strong_password")));
     }
 
 

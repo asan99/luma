@@ -21,19 +21,25 @@ public abstract class BaseTest {
 
 
 
-    @BeforeClass
-    public void setUpBrowser() {
-        driver = Driver.getDriver();
-        elementActions = new ElementActions();
-        fakeDataProvider = new FakeDataProvider();
-        createNewAccountPage = new CreateNewAccountPage();
-        homePage = new HomePage();
-        signInPage = new SignInPage();
-    }
+//    @BeforeClass
+//    public void setUpBrowser() {
+//        driver = Driver.getDriver();
+//        elementActions = new ElementActions();
+//        fakeDataProvider = new FakeDataProvider();
+//        createNewAccountPage = new CreateNewAccountPage();
+//        homePage = new HomePage();
+//        signInPage = new SignInPage();
+//    }
 
 
     @BeforeMethod
     public void openLuma() {
+        driver = Driver.getDriver();
+        elementActions = new ElementActions();
+        fakeDataProvider = new FakeDataProvider();
+        createNewAccountPage = new CreateNewAccountPage();
+        signInPage = new SignInPage();
+        homePage = new HomePage();
         driver.get("https://magento.softwaretestingboard.com/");
         homePage.clickOnSignInBtn();
 
@@ -41,6 +47,8 @@ public abstract class BaseTest {
 
     @AfterMethod
     public void tearDown() {
+
         Driver.closeDriver();
+
     }
 }

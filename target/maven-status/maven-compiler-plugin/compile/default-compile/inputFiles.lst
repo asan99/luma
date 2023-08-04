@@ -1,0 +1,17 @@
+/Users/asan/IdeaProjects/luma_test_framework/src/main/java/selenium/ui/drivers/OperaWebDriver.java
+/Users/asan/IdeaProjects/luma_test_framework/src/main/java/selenium/ui/helper/WindowHelper.java
+/Users/asan/IdeaProjects/luma_test_framework/src/main/java/selenium/ui/pages/BasePage.java
+/Users/asan/IdeaProjects/luma_test_framework/src/main/java/selenium/ui/config/FakeDataProvider.java
+/Users/asan/IdeaProjects/luma_test_framework/src/main/java/selenium/ui/helper/ElementActions.java
+/Users/asan/IdeaProjects/luma_test_framework/src/main/java/selenium/ui/helper/AlertHelper.java
+/Users/asan/IdeaProjects/luma_test_framework/src/main/java/selenium/ui/pages/SignInPage.java
+/Users/asan/IdeaProjects/luma_test_framework/src/main/java/selenium/ui/pages/HomePage.java
+/Users/asan/IdeaProjects/luma_test_framework/src/main/java/selenium/ui/drivers/SafariWebDriver.java
+/Users/asan/IdeaProjects/luma_test_framework/src/main/java/selenium/ui/pages/CreateNewAccountPage.java
+/Users/asan/IdeaProjects/luma_test_framework/src/main/java/selenium/ui/drivers/FireFoxWebDriver.java
+/Users/asan/IdeaProjects/luma_test_framework/src/main/java/selenium/ui/config/ConfigReader.java
+/Users/asan/IdeaProjects/luma_test_framework/src/main/java/selenium/ui/helper/WaitManager.java
+/Users/asan/IdeaProjects/luma_test_framework/src/main/java/selenium/ui/models/CustomerAccountForm.java
+/Users/asan/IdeaProjects/luma_test_framework/src/main/java/selenium/ui/helper/DropDownHelper.java
+/Users/asan/IdeaProjects/luma_test_framework/src/main/java/selenium/ui/drivers/Driver.java
+/Users/asan/IdeaProjects/luma_test_framework/src/main/java/selenium/ui/drivers/ChromeWebDriver.java

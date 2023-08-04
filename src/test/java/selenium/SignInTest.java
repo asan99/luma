@@ -1,6 +1,6 @@
 package selenium;
 
-import configTest.ConfigReaderTest;
+import configTest.ConfigReaderLogin;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -10,8 +10,8 @@ public class SignInTest extends BaseTest{
     public void signIn(){
         signInPage.signIn();
         Assert.assertTrue(homePage.checkWelcomeText(
-                ConfigReaderTest.getTestProperty("name"),
-                ConfigReaderTest.getTestProperty("lastName")));
+                ConfigReaderLogin.getLoginProperty("name"),
+                ConfigReaderLogin.getLoginProperty("lastName")));
     }
 
 

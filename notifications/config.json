@@ -4,9 +4,9 @@
     "project": "luma test",
     "environment": "qa",
     "comment": "",
-    "reportLink": "",
+    "reportLink": "${BUILT_URL}",
     "language": "en",
-    "allureFolder": "target/allure-results",
+    "allureFolder": "target/allure-results/",
     "enableChart": true
   },
   "slack": {

@@ -1,1 +1,81 @@
-{"uuid":"37b4c011-0d41-4971-9972-101a8d40afae","historyId":"3863520efb4d8a0b87b7c66d85653fe7","fullName":"selenium.SignInTest.signIn","labels":[{"name":"package","value":"selenium.SignInTest"},{"name":"testClass","value":"selenium.SignInTest"},{"name":"testMethod","value":"signIn"},{"name":"parentSuite","value":"Default Suite"},{"name":"suite","value":"luma_test_framework"},{"name":"subSuite","value":"selenium.SignInTest"},{"name":"host","value":"MacBook-Air-Asan.local"},{"name":"thread","value":"14647@MacBook-Air-Asan.local.main(1)"},{"name":"framework","value":"testng"},{"name":"language","value":"java"}],"links":[],"name":"sign in to the site","status":"passed","statusDetails":{"known":false,"muted":false,"flaky":false},"stage":"finished","steps":[{"name":"checking welcome text is visible","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[{"name":"name","value":"asan"},{"name":"lastName","value":"daniyarov"}],"start":1691149019411,"stop":1691149022758}],"attachments":[],"parameters":[],"start":1691149017240,"stop":1691149022763}
+{
+  "uuid": "37b4c011-0d41-4971-9972-101a8d40afae",
+  "historyId": "3863520efb4d8a0b87b7c66d85653fe7",
+  "fullName": "selenium.SignInTest.signIn",
+  "labels": [
+    {
+      "name": "package",
+      "value": "selenium.SignInTest"
+    },
+    {
+      "name": "testClass",
+      "value": "selenium.SignInTest"
+    },
+    {
+      "name": "testMethod",
+      "value": "signIn"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "luma_test_framework"
+    },
+    {
+      "name": "subSuite",
+      "value": "selenium.SignInTest"
+    },
+    {
+      "name": "host",
+      "value": "MacBook-Air-Asan.local"
+    },
+    {
+      "name": "thread",
+      "value": "14647@MacBook-Air-Asan.local.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": [],
+  "name": "sign in to the site",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "checking welcome text is visible",
+      "status": "passed",
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [
+        {
+          "name": "name",
+          "value": "asan"
+        },
+        {
+          "name": "lastName",
+          "value": "daniyarov"
+        }
+      ],
+      "start": 1691149019411,
+      "stop": 1691149022758
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1691149017240,
+  "stop": 1691149022763
+}
